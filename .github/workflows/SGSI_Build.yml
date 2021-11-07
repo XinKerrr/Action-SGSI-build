@@ -82,7 +82,7 @@ jobs:
         run: |
           sudo bash $GITHUB_WORKSPACE/Tool-SGSI-build/make.sh AB << EOF
           ${{ github.event.inputs.ZIP_NAME }}
-          y
+          n
           y
           ${{ github.event.inputs.OS_TYPE }}
           y
